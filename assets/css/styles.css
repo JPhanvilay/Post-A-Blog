@@ -3,7 +3,6 @@ body {
  background-color: #f4f4f4;
  color: #333;
  margin: 0;
- padding: 20px;
  transition: background-color 0.3s ease, color 0.3s ease;
 }
 
@@ -46,4 +45,22 @@ nav ul li button {
 
 .dark-mode .post {
  background-color: #666;
+}
+
+footer {
+ text-align: center;
+ padding: 20px 0;
+ background-color: #5cb85c;
+ color: white;
+ width: 100%;
+ bottom: 0;
+}
+
+footer a {
+ color: white;
+ text-decoration: underline;
+}
+
+footer a:hover {
+ color: #ddd;
 }

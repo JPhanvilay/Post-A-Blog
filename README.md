@@ -6,6 +6,8 @@ This website allows the user to create blogposts with timestamps. It will add it
 
 ## Usage
 
+Deployed Link: https://jphanvilay.github.io/Post-A-Blog/
+
 The image below should be what is displayed after launching the website.
 
 ![Top-half](./assets/images/formblogpost.png)

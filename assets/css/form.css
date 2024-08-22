@@ -1,0 +1,48 @@
+form {
+ display: flex;
+ flex-direction: column;
+}
+.container {
+ max-width: 600px;
+ margin: 20px auto 0;
+ background: #fff;
+ padding: 20px;
+ box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+ margin-top: 10px;
+}
+
+input[type="text"],
+textarea {
+ padding: 10px;
+ margin-top: 5px;
+ border: 1px solid #ccc;
+ border-radius: 5px;
+ width: 95%; /* Make inputs and textarea take the full width of the form */
+}
+
+textarea {
+ height: 100px;
+}
+
+button[type="submit"] {
+ margin-top: 20px;
+ padding: 10px;
+ background-color: #5cb85c;
+ color: white;
+ border: none;
+ border-radius: 5px;
+ cursor: pointer;
+}
+
+button[type="submit"]:hover {
+ background-color: #4cae4c;
+}
+
+/* Error Message */
+#errorMessage {
+ color: red;
+ margin-top: 10px;
+}
